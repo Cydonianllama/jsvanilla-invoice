@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+table{
+    text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+}
+label{
+    font-size: 1.2rem;
+}
+th{
+    padding: 0.5rem;
+    background-color: rgb(32, 144, 248);
+    color: white;
+}
+td{
+    padding: 0.5rem;
+}
+img{
+    width: 50px;
+}
+.row-container{
+    display: flex;
+    gap: 0.5rem;
+}
+#root{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+.bill-sell-form button{
+    padding: 0.5rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.bill-sell-form{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 600px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bill-sell-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.static-info-enterprise-name{
+    color: rgb(32, 144, 248);
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.bill-sell-static-information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.static-info-RUC{
+    font-size: 1rem;
+    color: black;
+}
+.static-info-direction{
+    color: rgb(197, 195, 195);
+    font-size: 1.1rem;
+}
+.bill-sell-metadata{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bill-sell-metadata-concept{
+    font-size: 2rem;
+}
+.bill-sell-metadata-code{
+    font-size: 1.5rem;
+    color: rgb(179, 179, 179);
+}
+.bill-sell-buyer-information{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.bill-sell-buyer-information input{
+    outline : none;
+    height: 2rem;
+    width: 95%;
+    border: 1px solid rgb(204, 204, 204);
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.bill-sell-view-ui{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    height: 700px;
+    width: 800px;
+    background-color: white;
+}
+.dashboard-bill-sell-ui{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    height: 700px;
+    width: 800px;
+    background-color: white;
+}
+
+.bill-sell-row{
+    cursor: pointer;
+    user-select: none;
+}
+.bill-sell-row:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+.actions-dashboard-bills-sell{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#btn-generate-actions-dashbord{
+    background-color: rgb(0, 98, 255);
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem;
+}
+#btn-cancel-bill-sell-view{
+    background-color: rgb(255, 51, 0);
+    padding: 0.5rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.actions-bill-sell{
+    display: flex;
+    gap: 1rem;
+}
+.actions-bill-sell button{
+    width: 90px;
+    font-size: 1.1rem;
+    padding: 0.2rem !important;
+}
+#btn-cancel-bill-sell{
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(255, 94, 0);
+    color: rgb(255, 94, 0);
+    background: none;
+}
+#btn-save-bill-sell{
+    outline: none;
+    cursor: pointer;
+    border: 1px solid rgb(0, 119, 255);
+    color: rgb(0, 119, 255);
+    background: none;
+}
+#btn-generate-bill-sell{
+    outline: none;
+    cursor: pointer;
+    color:white;
+    background-color: rgb(0, 119, 255);
+}
+
+#btn-back-1{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(243, 93, 48);
+}
+#btn-back-1:hover{
+    background-color: rgba(243, 94, 48, 0.651);
+}
